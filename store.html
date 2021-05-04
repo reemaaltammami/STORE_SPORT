@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en ">
+<head>
+    <dir>le</dir>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>reemastore</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital@1&family=Ubuntu&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body{
+            font-family: 'Raleway', sans-serif;
+font-family: 'Ubuntu', sans-serif;}
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nevbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+nav{
+flex: 1 ;
+text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+a{
+    text-decoration:none ;
+    color:purple;
+}
+p{
+    color:#555;
+    margin-bottom: 30px;
+}
+
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content:space-around ;
+
+}
+.row2{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+.row2 img{
+    max-width: 100%;
+    padding: 50px 0;
+}
+.row2 h1{
+    font-size: 50px;
+    line-height: 60px ;
+    margin: 25px 0;;
+}
+.btn{
+    display: inline block;
+    background: white ;
+    color: purple;
+    padding: 8px 30px;
+    margin: 3px 0;
+    border-radius: 30px ;
+    transition: background 0.5s;
+
+    
+
+}
+.header{
+    background: radial-gradient(plum , white  );
+}
+.header .row {
+    margin-top: 70px;
+}
+ .btn:hover{
+    background: plum;
+ }
+ .catog{
+     margin: 70px 0;
+
+ }
+ .row3{
+
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+ }
+ .row3 img{
+     width: 100%;
+
+ }
+ .small{
+     max-width: 1080px;
+     margin: auto;
+     padding-right: 25px;
+     padding-left :25px; 
+ }
+ .row4{
+     flex-basis: 25%;
+     padding: 10px;
+     min-width: 200px;
+     margin-bottom:50px;
+   
+ }
+ .row4 img {
+    width: 100%;
+ }
+ .ree{
+     text-align: center;
+     margin: 30px auto 80px;
+     position: relative;
+     line-height: 60px;
+     color: #555;
+     
+ }
+ .ree::after{
+     content: '';
+     background: purple;
+     width: 80px;
+     height: 5px;
+     border-radius: 5px;
+     position: absolute;
+     bottom: 0;
+     left: 50%;
+     transform: translateX(-50%);
+
+ }
+ h4{
+     color:black;
+     font-weight: normal;
+
+ }
+ .row4{
+     font-size: 15px;
+ }
+ .row4 img{
+ cursor: pointer;
+     transition: transform 0.5s;
+ }
+ .row4 :hover{
+ transform: translateY(-10px);}
+ .small .fa{
+     color: orange;
+ }
+ .offer{
+     background: radial-gradient(white , plum);
+     margin-top: 80px;
+     padding: 30px 0;
+ }
+ .row2 .offer-img{
+     padding: 30px ;
+ }
+ .small{
+     color: palevioletred;
+
+ }
+ .test{
+     padding-top: 100px ;
+ }
+ .test .row3{
+     text-align: center ;
+     padding :40px 20px ;
+     box-shadow: 0 0 20px 0px rgba(0, 0, 0, 1);
+     cursor: pointer;
+     transition: transform 0.5s;
+ }
+ .test .row3 img{
+     width: 50px ;
+     margin-top: 20px;
+     border-radius: 50%;
+ }
+ .test .row3:hover{
+     transform: translateY(-10px);
+ }
+.row3{
+    font-size: 12px;
+    margin:12px 0  ;
+    color: #777;
+}
+.test .row3 h3{
+    font-weight: 600;
+font-size: 16px;
+    color: #555;
+
+}
+.row9 img {
+    max-width: 15%;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.row10 img {
+    max-width: 15%;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.brands{
+    margin: 100px auto;
+
+}
+.row5 img {
+    width: 100%;
+    cursor: pointer;
+    filter: grayscale(100);/* هذا يخلي الصور احاديه*/
+}
+.row5 img :hover{
+    filter: grayscale(0);}
+}
+
+    </style>
+</head>
+<body>
+    <div class="header">
+
+   
+    <div class="container">
+    <div class="nevbar">
+        <div>
+         <img src="logo.jpg" width="125px">
+        </div>
+        <nav>
+            <ul>
+               <li><a href="store.html" >Home</a> </li>
+               <li><a href="pro.html" >products</a> </li>
+               <li><a href="" >about</a> </li>
+               <li><a href="" >contact</a> </li>
+               <li><a href="" >login</a> </li>
+
+            </ul>
+        </nav>
+        <img src="cart.png" width="30px" height="30px">
+    </div>
+    <div class="row">
+        <div class="row2">
+            <h1> give your workout <br>a new style! </h1>
+            <p> text </p>
+            <a href=""  class ="btn">explore naw!</a>
+        </div>
+   
+    <div class="row2">
+         <img src="image1.png">   
+    </div>
+</div>
+</div>
+</div>
+<!-------- featured categories----->
+<div class="catog">
+    <div class="small">
+        <div class ="row">
+            <div class="row3">
+                <img src="category-1.jpg">
+            </div>
+            <div class="row3">
+                <img src="category-2.jpg">
+            </div>
+            <div class="row3">
+                <img src="category-3.jpg">
+            </div>
+    </div>
+</div>
+</div>
+
+<!-------- featured  prodects ----->
+<div class="small">
+  <center> <h2 class="ree">featured prodects </h2></center> 
+    <div class ="row"><!-------- 1 ----->
+        <div class="row4"><!-------- 2 ----->
+            <img src="product-1.jpg" >
+            <h4>red printed t-shirt</h4>
+            <div class="star"><!-------- 3 ----->
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star-half-o"></i>
+                <i class="fa fa-star-o" ></i>
+            </div><!-------- 3 ----->
+
+            <p>$50.00</p>
+        </div><!-------- 2 ----->
+        <div class="row4"><!-------- 4----->
+            <img src="product-2.jpg" >
+            <h4>red printed t-shirt</h4>
+            <div class="star"><!-------- 5----->
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star-half-o"></i>
+               
+            </div><!-------- 5----->
+
+            <p>$50.00</p>
+        </div><!-------- 4----->
+        <div class="row4"><!-------- 6----->
+            <img src="product-3.jpg" >
+            <h4>red printed t-shirt</h4>
+            <div class="star"><!-------- 7----->
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star-o" ></i>
+                <i class="fa fa-star-o" ></i>
+            </div><!-------- 7----->
+
+            <p>$50.00</p>
+        </div><!-------- 6----->
+        <div class="row4"><!-------- 8----->
+            <img src="product-4.jpg" >
+            <h4>red printed t-shirt</h4>
+            <div class="star"><!--------9 ----->
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star-o" ></i>
+                
+            </div><!-------- 8----->
+
+            <p>$50.00</p>
+        </div><!-------- 9----->
+
+    </div>
+        <center> <h2 class="ree">latest prodect </h2></center>
+        <div class ="row">
+    <div class="row4"><!-------- 10----->
+        <img src="product-5.jpg" >
+        <h4>red printed t-shirt</h4>
+        <div class="star"><!-------- 11---->
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star-half-o"></i>
+            <i class="fa fa-star-o" ></i>
+        </div><!-------- 11----->
+
+        <p>$50.00</p>
+    </div><!-------- 10----->
+    <div class="row4"><!-------- 12----->
+        <img src="product-6.jpg" >
+        <h4>red printed t-shirt</h4>
+        <div class="star"><!-------- 13----->
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star-half-o"></i>
+           
+        </div><!-------- 13----->
+
+        <p>$50.00</p>
+    </div><!-------- 12----->
+    <div class="row4"><!-------- 14----->
+        <img src="product-7.jpg" >
+        <h4>red printed t-shirt</h4>
+        <div class="star"><!-------- 15----->
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star-o" ></i>
+            <i class="fa fa-star-o" ></i>
+        </div><!-------- 15----->
+
+        <p>$50.00</p>
+    </div><!-------- 14----->
+    <div class="row4"><!-------- 16----->
+        <img src="product-8.jpg" >
+        <h4>red printed t-shirt</h4>
+        <div class="star"><!-------- 17----->
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star-o" ></i>
+            
+        </div><!-------- 17----->
+
+        <p>$50.00</p>
+    </div><!-------- 16----->
+
+</div><!-------- 1----->
+
+<div class ="row">
+    <div class="row4"><!-------- 10----->
+        <img src="product-9.jpg" >
+        <h4>red printed t-shirt</h4>
+        <div class="star"><!-------- 11---->
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star-half-o"></i>
+            <i class="fa fa-star-o" ></i>
+        </div><!-------- 11----->
+
+        <p>$50.00</p>
+    </div><!-------- 10----->
+    <div class="row4"><!-------- 12----->
+        <img src="product-10.jpg" >
+        <h4>red printed t-shirt</h4>
+        <div class="star"><!-------- 13----->
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star-half-o"></i>
+           
+        </div><!-------- 13----->
+
+        <p>$50.00</p>
+    </div><!-------- 12----->
+    <div class="row4"><!-------- 14----->
+        <img src="product-11.jpg" >
+        <h4>red printed t-shirt</h4>
+        <div class="star"><!-------- 15----->
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star-o" ></i>
+            <i class="fa fa-star-o" ></i>
+        </div><!-------- 15----->
+
+        <p>$50.00</p>
+    </div><!-------- 14----->
+    <div class="row4"><!-------- 16----->
+        <img src="product-12.jpg" >
+        <h4>red printed t-shirt</h4>
+        <div class="star"><!-------- 17----->
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star-o" ></i>
+            
+        </div><!-------- 17----->
+
+        <p>$50.00</p>
+    </div><!-------- 16----->
+
+</div><!-------- 1----->
+<!-------- offer----->
+<div class="offer">
+    <div class="small">
+        <div class="row">
+            <div class="row2">
+                <img src="exclusive.png" class="offerimg ">
+            </div> 
+                <div class="row2">
+                   <p> exclusive availble on reema store </p> 
+                   <h1>smart band 4</h1>
+                   <p>about exclusive jnbhgvfdszedrtfyguhijokjhbgvfcddftgyuhjikmnj bvcxfdrtyuh</p>
+                   <a href=""  class ="btn">go to!</a>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-------- testimonial----->
+<div  class="test">
+<div class="small">
+    <div class="row">
+        <div class="row3">
+            <i class="fa fa-quote-left" ></i>
+          <p>dsftgyhujiklkmjnbhgvcfdxfr
+            vghvhjbjb jktgyhujikolkj
+            nbhgvfdctgyhujikjhvghvhjb</p>  
+          <div class="star"><!-------- 17----->
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star-o" ></i>
+            
+        </div>
+        <img src="user-1.png">
+        <h3>sean </h3>
+    </div>
+            <div class="row3">
+                <i class="fa fa-quote-left" ></i>
+              <p>dsftgyhujiklkmjnbhgvcfdxfr
+                vghvhjbjb jktgyhujikolkj
+                nbhgvfdctgyhujikjhvghvhjb</p>  
+              <div class="star"><!-------- 17----->
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star-o" ></i>
+                
+            </div>
+            <img src="user-2.png">
+            <h3>nasser </h3>
+            </div>
+    
+                <div class="row3">
+                    <i class="fa fa-quote-left" ></i>
+                  <p>dsftgyhujiklkmjnbhgvcfdxfr
+                      vghvhjbjb jktgyhujikolkj
+                      nbhgvfdctgyhujikjhvghvhjb
+                  </p>  
+                  <div class="star"><!-------- 17----->
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-o" ></i>
+                    
+                </div>
+                <img src="user-3.png">
+                <h3> reema </h3>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-------- brands----->
+<div class="brands">
+    <div class="small">
+        <div class="row">
+            <div class="row5">
+                <img src="logo-godrej.png" >
+            </div>
+            <div class="row5">
+                <img src="logo-coca-cola.png" >
+            </div>
+            <div class="row5">
+                <img src="logo-oppo.png" >
+            </div>
+            <div class="row5">
+                <img src="logo-philips.png" >
+            </div>
+           
+         <center>  <div class="row9">
+                <img src="logo.jpg" >
+            </div></center> 
+        </div>
+    </div>
+</div>
+   
+  <div class="acc">
+      <div class="container">
+          <div class="row">
+              <div class="row2">
+                  <img src="image1.png" >
+              </div>
+          </div>
+      </div>
+  </div>   
+   
+    
+</body>
+</html>
